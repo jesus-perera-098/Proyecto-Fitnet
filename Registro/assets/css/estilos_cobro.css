@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.cabeza{
+    
+    height: 90px;
+    background: #094293;
+}
+
+
+.cabeza h2{
+    margin: 0px  150px;
+    display: flex;
+    color: white;
+    font-size: 38px;
+}
+
+.logo_cobro{
+    
+    
+    margin: -35px  0px;
+    display: flex;
+
+} 
+
+.logo_cobro_1{
+    
+    display: flex;
+    margin: -55px  60px;
+    
+
+} 
+
+.Cerrar_sesion{
+    width: 30%;
+ 
+
+}
+
+/* Aqui le cambias el color al boton de cerrar sesion*/
+.contenedor_18 form button{ 
+    width: 40%;
+    margin: -10px 1300px;
+    padding: 10px 40px;
+
+    border: none;
+    font-size: 14px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+    outline: none;
+} 
+.cierre{
+    font-size: 15px;
+    height: -30px;
+    width: 8%;
+    margin: 0px 1200px;
+    background: white;
+} 
+
+.contenedor__general{
+    width: 75%;
+    max-width: 800px;
+    margin: auto;
+    position: center;
+}
+
+.cobro{
+    margin: 100px 300px;
+    width: 55%;
+    padding: 10px 20px;
+    position: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    /*background-color: rgba(0, 128, 255, 0.5);*/
+    background-color: white;
+    
+}
+
+.cobro h2{
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 36px;
+}
+
+.cobro input{
+
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 18px;
+    outline: none;
+    color: purple
+}
+
+/* Aqui le cambias el color al boton de finalizar*/
+.contenedor__cobro form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario__cobro{
+    opacity: 1;
+    display: block;
+
+}
+
+.image1{
+    display: flex;
+    margin: -70px  320px;
+}
+
+.image2{
+    display: flex;
+    margin: -100px  520px;
+}
