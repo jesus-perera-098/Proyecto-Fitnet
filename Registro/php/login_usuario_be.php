@@ -21,7 +21,7 @@
         echo '
            <script>
               alert("Usuario no existente, por favor verifique los datos introducidos");
-              window.location = "../index.php";
+              window.location = "../zona_registro.php";
            </script>
          
         ';

@@ -20,7 +20,7 @@
           <script>
           
              alert("este correo ya ha sido registrado, intenta con otro diferente");
-             window.location = "../index.php"; 
+             window.location = "../zona_registro.php"; 
           </script>      
       ';
       exit();
@@ -34,7 +34,7 @@
           <script>
           
              alert("este usuario ya ha sido registrado, intenta con otro diferente");
-             window.location = "../index.php"; 
+             window.location = "../zona_registro.php"; 
           </script>      
       ';
       exit();
@@ -48,7 +48,7 @@
         <script>
         
             alert("usuario almacenado exitosamente");
-            window.location = "../index.php";
+            window.location = "../zona_registro.php";
 
         </script>
       
@@ -57,7 +57,7 @@
       echo '
          <script>
             alert("usuario no almacenado intentelo una vez más");
-            window.location = "../index.php";
+            window.location = "../zona_registro.php";
          
          </script>
       

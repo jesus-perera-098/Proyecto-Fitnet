@@ -9,7 +9,7 @@
       <script>
       
          alert("Por favor debes iniciar sesion");
-         window.location = "index.php";
+         window.location = "zona_registro.php";
       </script>
     ';
     //header("location: index.php");
@@ -67,9 +67,9 @@
       
       <div class = "contenedor__cobro">
 
-        <form action="php/siguiente_pagina.php"  class="cobro">
+        <form action="php/siguiente_pagina2.php"  class="cobro">
 
-            <h2>¡Suscribete para disfrutar de nuestro contenido exclusivo!</h2>
+            <h2>¡Suscribete para disfrutar de nuestro contenido exclusivo por tan solo $120.00 mxn!</h2>
             <input type="text" placeholder="Nùmero de tarjeta" name ="tarjeta">
             <img src="assets/images/mastercard.png" alt="" width="38" height="21" >
             <input type="date" placeholder="Vencimiento" name ="vigencia">
